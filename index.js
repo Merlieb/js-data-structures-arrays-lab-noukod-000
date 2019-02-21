@@ -26,10 +26,10 @@ function prependDriver(name){
 }
 
 function removeLastDriver(){
-        const array = drivers.slice(0,drivers.length-1);
+      return drivers.slice(0, drivers.length - 1);
 
 }
 
       function removeFirstDriver(){
-        const array = drivers.slice(1,drivers.length);
+    return drivers.slice(1, drivers.length);
 }
